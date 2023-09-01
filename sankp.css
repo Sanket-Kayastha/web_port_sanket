@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 40px 24px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: red;
+}
+.logo {
+  size: 84%;
+  width: 20%;
+}
+.detel {
+  margin-left: 8%;
+  margin-top: 8%;
+}
+.detel h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 35px;
+}
+span {
+  color: red;
+}
+.detel p {
+  color: #555;
+  line-height: 23px;
+  width: 40%;
+}
+.detel a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.detel a:hover {
+  color: red;
+}
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+.images:hover .heart {
+  bottom: 10%;
+}
+.images:hover .best {
+  left: 25%;
+}
+
+.hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.footer-link {
+  padding: 5%;
+  color: white;
+}
+.footer-link:hover {
+  color: red;
+}
+h2 {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.bottom-container {
+  text-align: center;
+  background-color: black;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 50px 0;
+}
+
+/*about css*/
+marquee {
+  color: red;
+}
+.aboutme {
+  color: black;
+  padding-left: 18%;
+}
+.d-block {
+  margin-left: 12%;
+  border-radius: 50%;
+}
+#about {
+  margin-left: 5%;
+}
+.certificate {
+  text-align: center;
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.certificate:hover {
+  color: red;
+}
+.col-lg-6 {
+  padding-left: 5%;
+}
+.lead {
+  color: #555;
+  line-height: 23px;
+}
+
+/*Skill css*/
+
+#skl h2 {
+  text-align: center;
+}
+#skl h2 span {
+  color: black;
+}
+#skl {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+p {
+  padding-left: 7%;
+  margin-top: 2%;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.html {
+  width: 90%;
+  background-color: red;
+} /* Green */
+.css {
+  width: 70%;
+  background-color: black;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: cyan;
+} /* Red */
+.DB {
+  width: 80%;
+  background-color: blue;
+}
+.Bootstrap {
+  width: 85%;
+  background-color: grey;
+}
+
+/*Contact Css*/
+.contact-me {
+  text-align: center;
+}
+.contact-me span {
+  color: black;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.btn:hover {
+  color: red;
+}
+
+/*project*/
+.w-100 {
+  height: 400px;
+  width: 200px;
+  margin-left: 85px;
+}
+#carouselExampleControlsNoTouching {
+  margin-right: 85px;
+}
+#mypro h2 {
+  text-align: center;
+}
+#mypro span {
+  color: black;
+}
+.dropdown-item:hover {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    background-color: ;
+  }
+  .d-block {
+    padding-left: ;
+    margin-left: ;
+    height: 100%;
+    width: 100%;
+  }
+  .logo {
+    height: 50%;
+    width: 65%;
+  }
+  .images {
+    width: 33%;
+    height: 33%;
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+  }
+  .images:hover .heart {
+    bottom: 40%;
+  }
+  #mypro {
+    height: 15%;
+    width: 95%;
+  }
+  #skl {
+    width: 95%;
+  }
+}

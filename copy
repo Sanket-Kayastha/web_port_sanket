@@ -1,0 +1,9 @@
+<div>
+          <ul >
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skl">MY SKILLS</a></li>
+            <li><a href="#mypro">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
